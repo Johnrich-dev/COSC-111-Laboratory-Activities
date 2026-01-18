@@ -1,9 +1,9 @@
 # Laboratory 5 – Arduino + Python Serial LED Control
 
-## Overview
+## 📌 Overview
 This activity demonstrates **Serial Communication** between **Arduino** and **Python (pyserial)**. A Python menu sends commands to Arduino to control three LEDs (Red, Green, Blue). Inputs are **case-insensitive** and mapped to LED actions.
 
-## Objectives
+## 🎯 Objectives
 - Implement Arduino Serial Connection
 - Use Python as a tool for serial communication (pyserial)
 - Control an Arduino circuit using Serial commands from Python
@@ -15,7 +15,7 @@ This activity demonstrates **Serial Communication** between **Arduino** and **Py
 - Breadboard + jumper wires
 - Laptop with Python and `pyserial`
 
-## Pin Mapping
+## 🔌 Pin Mapping
 | LED | Arduino Pin |
 |-----|------------|
 | Red | D8 |
@@ -44,7 +44,7 @@ This activity demonstrates **Serial Communication** between **Arduino** and **Py
 3. Python shows a **non-terminating menu**, reads user input, converts it to lowercase, and sends the command to Arduino.
 4. When `x` is entered, Arduino turns all LEDs OFF and the Python program exits.
 
-## How to Run
+## ▶️ How to Run
 ### 1) Upload Arduino Code
 1. Open the `.ino` file in Arduino IDE.
 2. Make sure `LEDControl.h` is in the same project folder (or Arduino tab).
@@ -64,6 +64,6 @@ This activity demonstrates **Serial Communication** between **Arduino** and **Py
 - The Python script clears the screen after each input to keep the menu clean.
 - Ensure the baud rate in Python matches Arduino (**9600**).
 
-## Author
+## 👤 Author
 John Rich  
-Arduino Laboratory Exercises
+Arduino Laboratory Exercises 🚀
