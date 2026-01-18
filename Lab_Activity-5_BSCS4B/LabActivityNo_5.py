@@ -26,7 +26,7 @@ try:
                 print(f"Sent command: {cmd}")
                 time.sleep(0.05)  # Short delay for stability
                 if cmd == 'x':
-                print("Exiting program...")
+                    print("Exiting program...")
                 break
                 
             else:
