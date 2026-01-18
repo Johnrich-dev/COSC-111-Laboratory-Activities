@@ -77,6 +77,16 @@ Each laboratory activity is organized in its **own folder**, complete with sourc
 
 ---
 
+### 📝 Midterm Laboratory Exam – Light Intensity Monitoring System 🌤️
+**Concepts:** Analog sensor reading, threshold-based logic, Serial command control  
+📁 [Lab_Exam-Midterms_BSCS4B](Lab_Exam-Midterms_BSCS4B)
+
+---
+
+### 📝 Final Laboratory Exam – Remote Arduino Control via HTTP API 🌍
+**Concepts:** IoT architecture, Serial-to-HTTP communication, distributed systems  
+📁 [Lab_Exam-Finals_BSCS4B](Lab_Exam-Finals_BSCS4B)
+
 ## 🧰 Technologies Used
 - Arduino (C / C++)
 - LEDs, Sensors, Push Buttons
